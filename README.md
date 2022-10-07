@@ -40,10 +40,11 @@ Report with interactive graphs:
 
 ## Packages & documents
 ---
-The code was written in Jupyter Notebook with Python, using Pandas for data manipulation, and Plotly for visualization.
+The code was written in Jupyter Notebook with Python, using Pandas for data manipulation, and Matplotlib for visualization.
 * deliverables.ipynb: Set-Up, imports, Data wrangling, and Processing 
 * functions.ipynb: workflows for processing the data 
-* analysis.ipynb: data visualization, analysis and some discussion
+* map.html and mapnn.html are the output maps as part of the tasks
+* Deliverables.pdf: a pdf export of the jupyter notebook 
 
 
 ```python
