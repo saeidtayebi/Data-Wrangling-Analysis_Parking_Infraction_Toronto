@@ -1,9 +1,7 @@
 # City of Toronto 2022 Data Wrangling & Analysis 
 ## Take Home Assignment 
 --- 
-Data visualization dashboard:
-
---- 
+ 
 
 ## Objective
 ---
