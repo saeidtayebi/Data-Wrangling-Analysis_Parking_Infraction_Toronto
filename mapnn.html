@@ -1,0 +1,137 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Google Maps - gmplot</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization"></script>
+<script type="text/javascript">
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 11,
+            center: new google.maps.LatLng(43.693353, -79.401159)
+        });
+
+        var marker_icon_FFFFFF = {
+            url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAiCAYAAACwaJKDAAAABmJLR0QA/wD/AP+gvaeTAAAClklEQVRIia3VsUsbYRjH8e9FLkmhJ06lTbno4CCUaglUOpS4dHCpo4YO+QsE6dpRoSiiKF0KrnYoXUKkg6bYBG4LHiRQpIVAFZq2EErE2iZXek8H78TY5HLm/C0v3N3zufd97733VfDOHeAhcBsIATbwBTCAD52KlA7XHwHPgfvxeJzR0VEGBgao1+uUy2UODw8BisAz4F2XjqEAi4qi2KlUSkzTFNu25WJM05RUKiWKotjAokfnUIA1TdNka2vrP6hdstmsaJomwFoneC4ajYphGL5AN4ZhSDQaFWDuIhgDTlZWVi4FulldXRXgxHHOsjA4OCiWZfWEWpYlQ0NDAizA6TIBmEqn06iq2u1Dto2qqqTTaYApF+0DRiYmJnoC3SSTSYARoC8EqEA4Ho8HQp36MKC6w0dEAqHn60OABVgHBweBUKfeAiz3f94vFAqBUKd+3/EAmNd1XZrNZs9LStd1AebPv+gWcLy0tNQTury8LMCx47RkNhwOSz6fvxRYKBQkEokIMNtpatY1TZNisegL3Nvbk/7+fgHWveZbAV7FYjGpVqueYK1Wc+fxNR5bn5trQHlycrLtXupmZmZGgI/A9W6gm3vAn83NzbZgLpcTQICkX9DNC13XpdFotIC2bcv4+LgAby4LAtwAfm1sbLSgu7u7wukCv9sLCvBybGysBZ2enhZ8HHZeSQBSKpVERKRer7tHxxOvopDXTcAEPmUyGQC2t7dpNBq/gWwQFOBtLpcDYGdnB+A98NNHnWceRyIRaTabMjw8LMDToCDATUDy+bwoiiLAg24Ffob/DahlMhlE5C9QCtjJsxQTiYQAFT8P++kpQK1SqQD4OnP8oj+Ojo7gdCO+MvS701avEv3qtJ/9PPwP0ZvxC1UctAkAAAAASUVORK5CYII=",
+            labelOrigin: new google.maps.Point(10, 11)
+        };
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.664542, -79.381752),
+            title: "Church-Wellesley",
+            label: "31.714285714285715",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.677370, -79.446128),
+            title: "Corso Italia-Davenport",
+            label: "60.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.657425, -79.381752),
+            title: "Downtown Yonge East",
+            label: "40.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.640552, -79.378937),
+            title: "Harbourfront-CityPlace",
+            label: "37.77777777777778",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.653438, -79.400201),
+            title: "Kensington-Chinatown",
+            label: "40.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.647595, -79.430763),
+            title: "Little Portugal",
+            label: "60.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.654789, -79.372602),
+            title: "Moss Park",
+            label: "30.322580645161292",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.702491, -79.387817),
+            title: "Mount Pleasant East",
+            label: "30.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.728091, -79.295841),
+            title: "Taylor-Massey",
+            label: "40.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.667348, -79.296693),
+            title: "The Beaches",
+            label: "30.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.644506, -79.395827),
+            title: "Wellington Place",
+            label: "35.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.668336, -79.457380),
+            title: "Weston-Pelham Park",
+            label: "35.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.776470, -79.231728),
+            title: "Woburn North",
+            label: "60.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.912011, -79.446750),
+            title: "Yonge-Bay Corridor",
+            label: "40.0",
+            icon: marker_icon_FFFFFF,
+            map: map
+        });
+
+    }
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 100%;" />
+</body>
+</html>
